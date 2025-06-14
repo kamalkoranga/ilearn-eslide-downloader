@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Unlock iLearn PDF</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9fafb;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 1em;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin-top: 0.3em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-top: 1em;
+      background: #2563eb;
+      color: white;
+      padding: 0.6em 1.2em;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>iLearn ESlide Downloader</h1>
+  <form method="POST">
+    <label for="course_url">Course URL:</label>
+    <input type="text" name="course_url" required placeholder="https://ilearn.gehu.ac.in/s/courses/..." />
+
+    <label for="pdf_id">PDF ID:</label>
+    <input type="text" name="pdf_id" required placeholder="e.g. 65f154d7afd8d01dfbb6d844" />
+
+    <label for="cookie">Paste Your iLearn Cookies:</label>
+    <textarea name="cookie" rows="4" required placeholder="id=...; SESSIONID=...; c_ujwt=..."></textarea>
+
+    <button type="submit">Unlock PDF</button>
+  </form>
+</body>
+
+</html>
