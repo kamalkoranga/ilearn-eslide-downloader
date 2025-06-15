@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "iLearn eSlide Downloader",
+  "version": "1.0",
+  "description": "Unlock and download password-protected PDFs from iLearn",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ilearn.gehu.ac.in/*"
+  ],
+  "content_scripts": [{
+    "matches": ["https://ilearn.gehu.ac.in/*"],
+    "js": ["content.js", "crypto.min.js"]
+  }],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
