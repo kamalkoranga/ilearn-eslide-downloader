@@ -1,10 +1,12 @@
+![GitHub Logo](/icons/icon128.png)
+
 # 📘 iLearn eSlide Downloader
 
 Unlock and download password-protected PDF slides from [iLearn GEHU](https://ilearn.gehu.ac.in) courses — effortlessly.
 
-![GitHub Release](https://img.shields.io/github/v/release/kamalkoranga/ilearn-eslide-downloader)
-![License](https://img.shields.io/github/license/kamalkoranga/ilearn-eslide-downloader)
-![Firefox Add-on](https://img.shields.io/amo/v/ilearn-eslide-downloader)
+[![GitHub Release](https://img.shields.io/github/v/release/kamalkoranga/ilearn-eslide-downloader)](https://github.com/kamalkoranga/ilearn-eslide-downloader/releases)
+[![License](https://img.shields.io/github/license/kamalkoranga/ilearn-eslide-downloader)](/LICENSE)
+[![Firefox Add-on](https://img.shields.io/amo/v/ilearn-eslide-downloader)](https://addons.mozilla.org/en-US/firefox/addon/ilearn-eslide-downloader)
 
 ---
 
