@@ -60,7 +60,7 @@ Please do not use it to violate any terms of service or redistribute content imp
 
 ## 📄 License
 
-MIT [License](./LICENSE) © 2025 Klka
+MIT [License](./LICENSE) © 2025 Kamal Koranga
 
 ---
 
